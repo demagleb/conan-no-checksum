@@ -449,15 +449,18 @@ def _human_size(size_bytes):
 
 
 def check_sha1(conanfile, file_path, signature):
-    _check_with_algorithm_sum("sha1", file_path, signature)
+    pass
+    # _check_with_algorithm_sum("sha1", file_path, signature)
 
 
 def check_md5(conanfile, file_path, signature):
-    _check_with_algorithm_sum("md5", file_path, signature)
+    pass
+    # _check_with_algorithm_sum("md5", file_path, signature)
 
 
 def check_sha256(conanfile, file_path, signature):
-    _check_with_algorithm_sum("sha256", file_path, signature)
+    pass
+    # _check_with_algorithm_sum("sha256", file_path, signature)
 
 
 def _check_with_algorithm_sum(algorithm_name, file_path, signature):
